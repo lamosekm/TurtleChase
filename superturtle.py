@@ -3,7 +3,7 @@ from random import randint, choice
 
 def rancolor():
   """ This method returns a string from a list of colors available to Turtle's .color() method """
-  colors = ["brown", "darkorange", "maroon", "crimson", "navy", "salmon", "tomato", "khaki", "gold", "hotpink", "springgreen", "blue", "cyan", "purple", "green", "red", "pink", "yellow", "teal"]
+  colors = ["brown", "darkorange", "maroon", "crimson", "navy", "salmon", "tomato", "khaki", "gold", "hotpink", "springgreen", "blue", "cyan", "purple", "green", "red", "yellow", "teal"]
   return choice(colors)
 
 class SuperTurtle(Turtle):
